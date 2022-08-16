@@ -1,0 +1,54 @@
+.formTop,
+.formBottom {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+
+	padding: 0 2%;
+}
+
+.formTop {
+	justify-content: space-between;
+	padding-top: 2%;
+}
+
+.formBottom p {
+	width: 30%;
+
+	margin: 20px auto;
+}
+
+.formTop-input {
+	width: 35%;
+	text-align: left;
+}
+.formTop-input label {
+line-height: 40px;
+}
+
+.formTop-btn {
+	height: 40px;
+	width: 15%;
+
+	margin-top: 40px;
+
+	background: none;
+	border: 2px solid;
+	border-radius: 10px;
+}
+
+.listsField {
+	width: 100%;
+	min-height: 150px;
+	height: fit-content;
+
+	padding: 5%;
+
+	border: 2px solid;
+	border-radius: 20px;
+
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-content: flex-start;
+}

@@ -1,0 +1,42 @@
+.listItem {
+	width: 100%;
+	height: 30px;
+
+	display: flex;
+	justify-content: space-around;
+	align-content: center;
+}
+
+.listItem-data,
+.listItem-km {
+	height: 30px;
+	width: 20%;
+}
+
+.listItem-actions {
+	height: 30px;
+	width: 20%;
+
+	display: flex;
+	justify-content: space-around;
+	align-content: center;
+}
+
+.listItem-btn {
+	height: 20px;
+	align-items: center;
+
+	background: none;
+	border: none;
+	cursor: pointer;
+
+	transition: height .1s linear;
+}
+
+.listItem-btn:hover {
+	height: 24px;
+}
+
+.listItem-icon {
+	height: inherit;
+}
