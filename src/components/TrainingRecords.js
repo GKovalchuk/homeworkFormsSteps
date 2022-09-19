@@ -98,7 +98,7 @@ function TrainingRecords() {
 						<input type="date" name='date' id="date" value={form.date} onChange={handleChange} />
 					</div>
 					<div className="formTop-input">
-						<label htmlFor="date">Пройдено км</label>
+						<label htmlFor="km">Пройдено км</label>
 						<input type="text" name='km' id="km" value={form.km} onChange={handleChange} placeholder='enter distance' />
 					</div>
 					<button type='submit' className="formTop-btn">
